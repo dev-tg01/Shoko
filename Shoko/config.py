@@ -19,12 +19,12 @@ class Config(object):
         "1306543333"  # If you dont know, run the bot and do /id in your private chat with it
     )
     OWNER_USERNAME = "gojou_sensei_01"
-    TELETHON_HASH =  ' 354ab50d5c0d499c04aebef8d7c61951' 
+    TELETHON_HASH =  '354ab50d5c0d499c04aebef8d7c61951' 
     TELETHON_ID = 1960206
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://mnfmghbg:0lDI1A0JOLAPpwUHD8cRRax35d1pQNUe@lallah.db.elephantsql.com"  # needed for any database modules
-    REDIS_URI = " redis://lodo:I@devashish9235@redis-17379.c246.us-east-1-4.ec2.cloud.redislabs.com"
+    REDIS_URI = "redis://lodo:I@devashish9235@redis-17379.c246.us-east-1-4.ec2.cloud.redislabs.com"
     MESSAGE_DUMP = -100  # needed to make sure 'save from' messages persist
     GBAN_DUMP = -100
     ERROR_DUMP = -100
