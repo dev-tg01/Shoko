@@ -14,17 +14,17 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    BOT_TOKEN = "bot_token"
+    BOT_TOKEN = "1357282823:AAGxAGEcpLnMKr5Kat-gFJF3l1Knc7os8f0"
     OWNER_ID = (
-        "1258544708"  # If you dont know, run the bot and do /id in your private chat with it
+        "1306543333"  # If you dont know, run the bot and do /id in your private chat with it
     )
-    OWNER_USERNAME = ""
-    TELETHON_HASH =  ' ' 
-    TELETHON_ID = 123456
+    OWNER_USERNAME = "gojou_sensei_01"
+    TELETHON_HASH =  ' 354ab50d5c0d499c04aebef8d7c61951' 
+    TELETHON_ID = 1960206
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
-    REDIS_URI = " "
+    SQLALCHEMY_DATABASE_URI = "postgres://mnfmghbg:0lDI1A0JOLAPpwUHD8cRRax35d1pQNUe@lallah.db.elephantsql.com"  # needed for any database modules
+    REDIS_URI = " redis://lodo:I@devashish9235@redis-17379.c246.us-east-1-4.ec2.cloud.redislabs.com"
     MESSAGE_DUMP = -100  # needed to make sure 'save from' messages persist
     GBAN_DUMP = -100
     ERROR_DUMP = -100
@@ -54,7 +54,7 @@ class Config(object):
     ALLOW_EXCL = False  # DEPRECATED, USE BELOW INSTEAD! Allow ! commands as well as /
     CUSTOM_CMD = ('/', '!')   # Set to ('/', '!') or whatever to enable it, like ALLOW_EXCL but with more custom handler!
     API_OPENWEATHER = None  # OpenWeather API
-    SPAMWATCH_API = '' # Your SpamWatch token
+    SPAMWATCH_API = 'trkjw7HsaVfkj7e0aQJoamHQ1VftxMI9SNZ0UBC_Z5Nfq~Vv9hYN9CkIVnPwM_ti' # Your SpamWatch token
     
     
 class Production(Config):
