@@ -24,7 +24,7 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://mnfmghbg:0lDI1A0JOLAPpwUHD8cRRax35d1pQNUe@lallah.db.elephantsql.com"  # needed for any database modules
-    REDIS_URI = "redis://dev:I@devashish9235@redis-13559.c239.us-east-1-2.ec2.cloud.redislabs.com:13559"
+    REDIS_URI = "redis://Divu:Divyesh9990@@redis-18455.c238.us-central1-2.gce.cloud.redislabs.com:18455:13559"
     MESSAGE_DUMP = -100  # needed to make sure 'save from' messages persist
     GBAN_DUMP = -100
     ERROR_DUMP = -100
